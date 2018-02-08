@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './app.css'
+import Clock from './clock'
 import { Form, FormControl, Button } from 'react-bootstrap'
 
 class App extends Component {
@@ -35,4 +36,4 @@ class App extends Component {
   }
 }
 
-export default app
+export default App
