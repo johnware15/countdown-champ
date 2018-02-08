@@ -1,0 +1,28 @@
+{
+  "name": "countdown-clock",
+  "version": "1.0.0",
+  "description": "Countdown clock to significant date",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnware15/countdown-clock.git"
+  },
+  "author": "johnware15",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnware15/countdown-clock/issues"
+  },
+  "homepage": "https://github.com/johnware15/countdown-clock#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.0"
+  }
+}
