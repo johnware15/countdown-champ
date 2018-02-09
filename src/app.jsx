@@ -21,7 +21,13 @@ class App extends Component {
     return (
       <div className="app">
         <div className="app-title">
-          {!this.state.view ? <h1>Countdown Clock</h1> : <Clock deadline={this.state.deadline} />}
+          {!this.state.view ? <h1>Countdown Clock</h1> : <div>
+            <h1>Countdown to {this.state.deadline}</h1>
+            <div>
+            <Clock deadline={this.state.deadline} />
+            </div>
+          </div>
+          }
         </div>
         <Form inline={true}>
           <FormControl

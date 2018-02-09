@@ -1,7 +1,14 @@
+body {
+  background-position: center;
+  border-color: 5px solid red;
+}
+
 .app {
   text-align: center;
   font-size: 35px;
-  margin-top: 20%;
+  color: black;
+  margin-top: 5%;
+  border-color: black;
 }
 
 .app-title {
