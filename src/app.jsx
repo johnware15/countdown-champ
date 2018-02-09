@@ -8,20 +8,20 @@ class App extends Component {
     super(props)
     this.state = {
       deadline: '',
-      newDeadline: ''
+      view: false
     }
   }
 
   changeDeadline() {
+    this.setState({ view: true })
     this.setState({ deadline: this.state.newDeadline })
   }
 
   render() {
     return (
       <div className="app">
-        <div className="app-title">Countdown to {this.state.deadline}</div>
-        <div>
-          <Clock deadline={this.state.deadline} />
+        <div className="app-title">
+          {!this.state.view ? <h1>Countdown Clock</h1> : <Clock deadline={this.state.deadline} />}
         </div>
         <Form inline={true}>
           <FormControl
